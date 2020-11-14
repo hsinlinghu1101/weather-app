@@ -95,7 +95,7 @@ render(){
 return (
   
   <div className="App">
-  <header>How's the weather ?</header>
+  <header>How's the Weather ?</header>
       <SearchForm getWeather={this.getWeather}/>
       {!isValid && <p>City not found, please try again</p>}
       {isSubmit && isValid &&
